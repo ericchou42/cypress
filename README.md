@@ -37,7 +37,7 @@
 ```
 - 輸入x值加enter動作     
 ```
-.type(x{enter})
+.type('x{enter}')
 ```
 刪除內容     
 ```
