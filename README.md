@@ -15,9 +15,9 @@
 ```
 .contains('class','data')
 ```
-- 選擇選單內容      
+- 選擇選單內容(強制輸入)      
 ```
-.select(data)
+.select(' ', { force: true });
 ```
 - 順位
 ```
