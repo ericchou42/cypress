@@ -1,4 +1,8 @@
 # cypress
+- 訪問指定的 URL
+```
+cy.visit('https://URL/');
+```
 - 搜尋    * ID(# )   *class(. ) *name([ ])
 ```
 .get('  ') 
