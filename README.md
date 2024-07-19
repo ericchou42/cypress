@@ -1,11 +1,11 @@
 # cypress
-- 搜尋    * ID(#)   *class(.) *name([])
+- 搜尋    * ID(# )   *class(. ) *name([ ])
 ```
 .get('  ') 
 ```
-- 點擊          
+- 點擊被隱藏的屬性          
 ```
-.click();
+.click({ force: true });
 ```
 - 過濾器        
 ```
